@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'directives';
+
+//  onSearch(eve:Event){
+//    let val = ((eve.target as HTMLInputElement).value as string).toLowerCase()
+//      console.log(val)
+//  }
+
 }

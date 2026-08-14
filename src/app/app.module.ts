@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BasicCssDirective } from './shared/directives/basicCss.directive';
 import { CssAdvanceDirective } from './shared/directives/css-advance.directive';
+import { LowercaseDirective } from './shared/directives/lowercase.directive';
+import { CreditCardFormatterDirective } from './shared/directives/credit-card-formatter.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicCssDirective,
-    CssAdvanceDirective
+    CssAdvanceDirective,
+    LowercaseDirective,
+    CreditCardFormatterDirective
      
 
   ],
